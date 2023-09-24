@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "condensedSans";
+    src: url('font/FontsFree-Net-tusker-grotesk-1800-super.ttf');
+  }
+
+body {
+    margin: 0;
+    background-color: black;
+    color: white;
+  }
+
+
+  .titolo {
+    text-align: center;
+    font-family: 'condensedSans';
+    font-size: 120vw;
+  }
