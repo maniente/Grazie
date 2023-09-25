@@ -5,14 +5,22 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles.css">
+        <script type="module" src="src/swiped-events.js"></script>
     </head>
         <body>
-            <button type="button" id="avanti" class="tastoSwipe">a</button>
-            <button type="button" id="indietro" class="tastoSwipe">i</button>
+            <div class="barSwipe">
+                <button type="button" id="avanti" class="tastoSwipe" ><</button>
+                swipe
+                <button type="button" id="indietro" class="tastoSwipe" >></button>
+                </div>
             <div class="titolo" id="titolo"></div>
             <div class="testo" id="testo"></div>
             <div class="img" id="img"> </div>
+            <!--<div class="camera">
+                <video id="video">Video stream not available.</video>
+                <button type="button" id="startbutton">Take photo</button>
+            </div>-->
 
-        <script type="module" src="script.js"></script>
+        <script type="module" src="src/script.js"></script>
         </body>
 </html>

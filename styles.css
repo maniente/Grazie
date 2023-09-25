@@ -1,17 +1,66 @@
 @font-face {
     font-family: "condensedSans";
     src: url('font/FontsFree-Net-tusker-grotesk-1800-super.ttf');
-  }
+}
 
 body {
     margin: 0;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: white;
-  }
+}
 
 
-  .titolo {
+.titolo {
+    margin-top: 50px;
     text-align: center;
     font-family: 'condensedSans';
-    font-size: 120vw;
+    font-size: 70vw;
+    line-height: 0.9;
+}
+
+.testo{
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18pt;
+    margin: 20px 30px;
+}
+
+.barSwipe{
+    margin:10px;
+    text-align: center;
+    font-size: 25pt;
+}
+
+.tastoSwipe{
+    background: none;
+    border: none;
+    color: white;
+    padding: 10px;
+    font-size: 25pt;
+    font-family: 'condensedSans';
+}
+
+#avanti{
+    float: left;
+}
+#indietro{
+    float: right;
+}
+
+#video {
+    border: 1px solid black;
+    box-shadow: 2px 2px 3px black;
+    width: 320px;
+    height: 240px;
+  }
+
+  .tastoFoto{
+    margin: 10px 50px;
+    padding: 5px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    font-size: 50pt;
+    font-family:'condensedSans';
   }
