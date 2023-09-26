@@ -13,13 +13,22 @@
                 swipe
                 <button type="button" id="indietro" class="tastoSwipe" >></button>
                 </div>
+
+            <div id="camera" class="camera">
+                    <video id="video">Video stream not available.</video>
+                    <div class="barAzioni">
+                        <button type="button" id="startbutton"></button>
+                        <button type="button" id="annullaFoto">x</button>
+                    </div>
+                <canvas id="canvas"> </canvas>
+                    
+            </div>
             <div class="titolo" id="titolo"></div>
             <div class="testo" id="testo"></div>
-            <div class="img" id="img"> </div>
-            <!--<div class="camera">
-                <video id="video">Video stream not available.</video>
-                <button type="button" id="startbutton">Take photo</button>
-            </div>-->
+            <div class="img" id="img" onerror="this.onerror=null">
+                <img id="photo" />
+            </div>
+            
 
         <script type="module" src="src/script.js"></script>
         </body>

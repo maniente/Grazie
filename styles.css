@@ -6,6 +6,7 @@
 body {
     margin: 0;
     background-color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
 }
 
@@ -49,18 +50,67 @@ body {
 
 #video {
     border: 1px solid black;
+    border-radius: 5px;
     box-shadow: 2px 2px 3px black;
-    width: 320px;
-    height: 240px;
+    width: 100%;
+    height: auto;
   }
 
   .tastoFoto{
-    margin: 10px 50px;
+    margin: 30px 50px 10px;
     padding: 5px;
     text-align: center;
     background-color: white;
     color: black;
-    border-radius: 20px;
-    font-size: 50pt;
-    font-family:'condensedSans';
+    border-radius: 5px;
+    font-size: 18pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+  }
+
+  .camera{
+    display: none;
+    text-align: center;
+    margin: 0px 20px;
+  }
+
+  #startbutton{
+    height: 50px;
+    width: 50px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    display: inline;
+  }
+
+  .barAzioni{ 
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+   
+  }
+
+  #canvas{
+    display: none;
+  }
+
+  .img{
+    margin: 20px;
+  }
+
+  #photo {
+    width: 100%;
+    height: auto;
+  }
+
+  #annullaFoto{
+    float: right;
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    color: #ffffff;
+    border: none;
+    display: inline;
+    font-size: 30pt;
   }
